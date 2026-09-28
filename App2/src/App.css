@@ -1,0 +1,85 @@
+.App {
+  font-family: serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.choices{
+  width:1000px;
+  height:320px;
+  font-size:20px;
+  cursor: crosshair;
+  padding: 10px 10px;
+  border: 0px solid rgb(17, 25, 36);
+  background-color: rgb(17, 25, 36);
+  font-family:serif;
+  text-wrap: wrap;
+}
+
+.input{
+  width:1000px;
+  height:70px;
+  font-size:24px;
+  gap:12px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  font-family:serif;
+}
+
+fieldset{
+    width:1000px;
+  height:330px;
+  font-size:20px;
+ 
+  cursor: pointer;
+  padding: 10px 10px;
+  border: 10px solid rgb(239, 235, 238);
+  background-color: rgb(16171d);
+}
+legend{
+  font-size:30px;
+  color:  #2e6bd5;
+  font-family:serif;
+}
+
+.DecideButton {
+    padding: 10px 10px;
+  font-size: 17px;
+  color: rgb(237, 234, 234);
+  border: 2px solid rgb(236, 230, 234);
+  border-radius: 0;
+  cursor: crosshair;
+  background-color: rgb(71, 36, 168);
+  font-family:serif;
+
+}
+
+.RemoveButton{
+   padding: 10px 10px;
+  font-size: 17px;
+  color: rgb(237, 234, 234);
+  border: px solid rgb(236, 230, 234);
+  border-radius: 0;
+  cursor: crosshair;
+  background-color: rgb(118, 4, 4);
+  font-family:serif;
+}
+
+.AddButton{
+   padding: 10px 10px;
+  font-size: 17px;
+  color: rgb(237, 234, 234);
+  border: 2px solid rgb(236, 230, 234);
+  border-radius: 0;
+  cursor: crosshair;
+  background-color: rgb(3, 109, 56);
+  font-family:serif;
+}

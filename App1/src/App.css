@@ -1,0 +1,20 @@
+  .App {
+  font-family: serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hello {
+  padding: 40px 40px;
+  font-size: 24px;
+  color: rgb(246, 239, 239);
+  border: 10px solid rgba(236, 233, 230, 0.497);
+  border-radius: 200px;
+  cursor: crosshair;
+  background-color: rgb(109, 19, 3);
+}
+
